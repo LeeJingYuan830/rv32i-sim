@@ -1,5 +1,6 @@
 # RV32I-Sim: A Lightweight RISC-V CPU Emulator
 
+[![CI](https://github.com/LeeJingYuan830/rv32i-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/LeeJingYuan830/rv32i-sim/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![ISA](https://img.shields.io/badge/ISA-RV32I_Zicsr_Zifencei-orange.svg)](#)
 [![Compliance](https://img.shields.io/badge/Compliance%20Tests-42%2F42%20PASS-brightgreen.svg)](#)
