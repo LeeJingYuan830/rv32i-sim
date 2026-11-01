@@ -23,7 +23,7 @@ Compiled via GCC on Linux/WSL.
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/your-username/rv32i-sim.git](https://github.com/your-username/rv32i-sim.git)
+git clone [https://github.com/LeeJingYuan830/rv32i-sim.git](https://github.com/LeeJingYuan830/rv32i-sim.git)
 cd rv32i-sim
 
 # 2. Generate the test binary firmware
@@ -36,12 +36,12 @@ make test
 
 # 4. Run manually
 ./rv32i-sim test.bin
+```
 
-🔍 Internal Architecture
+## 🔍 Internal Architecture
 The emulator structure strictly follows the Von Neumann architecture:
 
-1. Fetch: Reads 32-bit instructions from simulated Little-Endian memory.
-2. Decode: Extracts opcode, funct3, funct7, and handles sign-extended immediate reconstruction (especially the complex B-Type and S-Type offsets).
-3. Execute: Evaluates arithmetic logic and mutates architectural states (PC and x0-x31 registers).
-
+1. **Fetch**: Reads 32-bit instructions from simulated Little-Endian memory.
+2. **Decode**: Extracts opcode, funct3, funct7, and handles sign-extended immediate reconstruction.
+3. **Execute**: Evaluates arithmetic logic and mutates architectural states.
 Built for educational purposes and architectural exploration by Jing Yuan Lee.
