@@ -1,0 +1,16 @@
+# Build output binaries and object files
+*.o
+*.elf
+*.bin
+rv32i-sim
+gen_test
+
+# Official test build artifacts
+tests/riscv-tests/isa/rv32ui-p-*
+tests/riscv-tests/isa/macros/scalar/*.o
+
+# Temporary editor and build files
+.vscode/
+*.swp
+*~
+build/
