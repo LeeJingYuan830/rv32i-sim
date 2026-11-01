@@ -87,8 +87,7 @@ This project is open-source and available under the MIT License.
 
 Built for architectural exploration and systems engineering by Jing Yuan Lee.
 
-```Markdown
+Markdown
 <p align="center">
   <img src="assets/demo.gif" alt="RV32I Compliance Test Demo" width="700"/>
 </p>
-```
